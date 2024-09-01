@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex1{
+    @apply flex flex-col items-center gap-8 h-screen 
+}
+.grid1{
+    @apply grid grid-cols-3 grid-rows-4 border-2 border-blue-800 border-dashed
+}
+
+.heading{
+    @apply text-5xl font-bold
+}
+.heading1{
+    @apply text-2xl font-semibold
+}
+
+img{
+    @apply w-24 h-24 m-4
+}
+
+.result1{
+    @apply text-2xl font-bold bg-gradient-to-r from-yellow-500 to-blue-700 text-transparent bg-clip-text
+
+}
+
+button{
+    @apply bg-gradient-to-r from-yellow-500 to-blue-700 rounded-md px-2 text-white
+}
